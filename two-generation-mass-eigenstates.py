@@ -13,8 +13,6 @@ plt.rcParams.update({'font.size': 16})
 from scipy.integrate import odeint
 from scipy.interpolate import UnivariateSpline
 
-#prior to solving the complete problem, let us focus on the linear electron
-#density
 
 def ODEs(y,t,fint,dfint): #y : array of functions ; t: evolution parameter
     
